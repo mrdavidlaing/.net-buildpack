@@ -27,7 +27,7 @@ namespace NancyFXSample
 			public HelloModule()
 			{
 				Get["/"] = parameters => "Hello World";
-				Get["/mu-25b8a55c-a9fee579-723dcc44-9750de2e"] = parameters => "42";
+				Get["/mu-ee2239c7-20921db9-f706777f-2fab6f26"] = parameters => "42";
 				Get["/lipsum"] = parameters => {
 					var lipsum = @"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pretium nisl et molestie ultrices. Pellentesque sed mattis nunc. Pellentesque vitae tortor faucibus erat sollicitudin scelerisque a eu dui. Morbi egestas in eros in condimentum. Donec nulla tellus, imperdiet quis tincidunt ut, sagittis et leo. Ut blandit tortor at lacus ullamcorper tempus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
 					+ "<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque in dui blandit massa venenatis luctus. Sed pharetra neque nulla, quis consequat velit malesuada quis. Donec consectetur sit amet lorem ut viverra. Nam varius eu erat vehicula sollicitudin. Nulla vulputate est a ipsum pretium, at blandit dui dignissim. Praesent sollicitudin dapibus nisi eu lacinia. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris euismod posuere faucibus."
